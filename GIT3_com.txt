@@ -1,0 +1,33 @@
+
+git init
+
+git status 
+git diff xxxx(para ver que tiene de diferente ese archivo)
+git add . (añadir todo lo que ayas mudificado)
+git remote add PracticaGIT https://github.com/jlgm95/caliGIT(para añadir el servidor)
+git remote rm caliGIT(para borrar una conexion)
+
+
+git push origin HEAD (para suvir los archivos al servidor )
+{
+HEAD (es en la rama que estas colocado)
+}
+
+
+git push origin master ()
+
+git branch (para ver en que rama estas)
+
+git branch xxxx (nombre del rama new que vas a crear)
+git checkout xxxx(el nombre de la rama a la que quieres ir)
+git branch -d xxxx(el nombre de la rama que quieres eliminar)
+
+--------------------------------------------------------------------------------
+$ git pull origin master
+From https://bitbucket.org/tecgenome/chl-v2.0-html
+ * branch            master     -> FETCH_HEAD
+fatal: refusing to merge unrelated histories
+(cuando marque este error a la hora de querer guardar en el serve)
+{
+git reset --hard origin/master
+}
